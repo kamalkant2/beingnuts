@@ -1,0 +1,6 @@
+WebRTC : UDP based client to client communication, good for audio and video where the lost of data is aceptable.
+All sort of live chats uses it. be it Zoom,  whatsapp voice calls etc.
+encryption is taken care, 
+codec: compressed data is sent over network.
+browser based
+https://www.youtube.com/watch?v=2Z2PDsqgJP8
