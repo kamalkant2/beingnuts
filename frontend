@@ -11,7 +11,7 @@ anyway start with html, css and latere java script only
 https://medium.com/web-development-resources/the-best-websites-to-learn-coding-5e903400fdff
 
 
-Notes:-
+<h2>Notes</h2>
 
 HTML : Tags : DOM OBJECT : Document Query, Polulate or Edit by: by name, id, class etc. , can be rendered using Java Script.
 Tag can have name or id or class , so that they can be located within html.
