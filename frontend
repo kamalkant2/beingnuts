@@ -14,6 +14,8 @@ https://medium.com/web-development-resources/the-best-websites-to-learn-coding-5
 Notes:-
 
 HTML : Tags : DOM OBJECT : Document Query, Polulate or Edit by: by name, id, class etc. , can be rendered using Java Script.
+Tag can have name or id or class , so that they can be located within html.
+Web scrapping works on same fundamentals. 
 CSS is to style the html. Try to have Div and containers for better control in html pages. we can have css in html defined as well like js can be embed in script tag.
 
 However you cant save them these rendered HTML , you may print them in console logs however.
