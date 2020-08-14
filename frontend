@@ -9,3 +9,32 @@ https://www.interaction-design.org/literature/article/how-to-change-your-career-
 anyway start with html, css and latere java script only
 
 https://medium.com/web-development-resources/the-best-websites-to-learn-coding-5e903400fdff
+
+
+Notes:-
+
+HTML : Tags : DOM OBJECT : Document Query, Polulate or Edit by: by name, id, class etc. , can be rendered using Java Script.
+However you cant save them these rendered HTML , you may print them in console logs however.
+
+Node can be used to run js code. NPM , install libraries using npm install, make sure to have the settings for npm.
+Node is not client side, Its a server side. Dont expect to call javascript node libraries to be called using require keyword in your NodeJS environmnet.
+You will get this error: “require” is not defined error- javascript
+
+Why JS -> Its Async -> so that browser does not hang when you make a query in backend -> 
+Promise -> 3 states -> fullfilled, rejected, pending.
+for example , fetch method. 
+
+Example code:-
+
+let targets = fetch(apiserver).then(data => console.log(data)).catch(err => console.log(err));
+Also note that above is equivalent of below
+
+fetch(apiserver).then(function (data) {console.log(data)}).catch(function(err){console.log(err)});
+
+You expect an output from Async JS function, you may not get it. what would you get is : "Promise { <pending> }"
+
+You have to call the method on the promise object. These methods are:- .then, .catch
+You can run a webserver using expressJS http package or python django or flask. 
+
+
+
