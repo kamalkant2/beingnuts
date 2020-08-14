@@ -11,7 +11,7 @@ anyway start with html, css and latere java script only
 https://medium.com/web-development-resources/the-best-websites-to-learn-coding-5e903400fdff
 
 
-<h2>Notes</h2>
+Notes from last month experiences:- 
 
 HTML : Tags : DOM OBJECT : Document Query, Polulate or Edit by: by name, id, class etc. , can be rendered using Java Script.
 Tag can have name or id or class , so that they can be located within html.
@@ -20,9 +20,11 @@ Web scrapping works on same fundamentals.
 CSS is to style the html. Try to have Div and containers for better control in html pages. we can have css in html defined as well like js can be embed in script tag.
 we can add jquery or bootstrap to have some prebulilt syles and functions to be used.
 
+
 However you cant save them these rendered HTML , you may print them in console logs however.
 
 Functions defined in javascript can be invoked in response to an event in browser like click, hover etc.
+Wrire pure functions , means which takes input and return output. handle error always.
 These function can change the html view by rendering it or can call a backend query to db as well. 
 
 Node can be used to run js code. NPM , install libraries using npm install, make sure to have the settings for npm.
