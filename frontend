@@ -18,6 +18,9 @@ CSS is to style the html. Try to have Div and containers for better control in h
 
 However you cant save them these rendered HTML , you may print them in console logs however.
 
+Functions defined in javascript can be invoked in response to an event in browser like click, hover etc.
+These function can change the html view by rendering it or can call a backend query to db as well. 
+
 Node can be used to run js code. NPM , install libraries using npm install, make sure to have the settings for npm.
 Node is not client side, Its a server side. Dont expect to call javascript node libraries to be called using require keyword in your NodeJS environmnet.
 You will get this error: “require” is not defined error- javascript
