@@ -14,6 +14,8 @@ https://medium.com/web-development-resources/the-best-websites-to-learn-coding-5
 Notes:-
 
 HTML : Tags : DOM OBJECT : Document Query, Polulate or Edit by: by name, id, class etc. , can be rendered using Java Script.
+CSS is to style the html. Try to have Div and containers for better control in html pages. we can have css in html defined as well like js can be embed in script tag.
+
 However you cant save them these rendered HTML , you may print them in console logs however.
 
 Node can be used to run js code. NPM , install libraries using npm install, make sure to have the settings for npm.
@@ -36,5 +38,7 @@ You expect an output from Async JS function, you may not get it. what would you 
 You have to call the method on the promise object. These methods are:- .then, .catch
 You can run a webserver using expressJS http package or python django or flask. 
 
+TS. As node js is functional in nature. the code become more complex to be written. we can write typescript and complile it to javascript. 
+Typescript allow classes, inheritence and many other object oriented features. 
 
 
