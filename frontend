@@ -30,6 +30,7 @@ These function can change the html view by rendering it or can call a backend qu
 Node can be used to run js code. NPM , install libraries using npm install, make sure to have the settings for npm.
 Node is not client side, Its a server side. Dont expect to call javascript node libraries to be called using require keyword in your NodeJS environmnet.
 You will get this error: “require” is not defined error- javascript
+In JavaScript: Any function which recieve function as an argument , is called higher order function and the function which is passed as paremeter is called callback.
 
 Why JS -> Its Async -> so that browser does not hang when you make a query in backend -> 
 Promise -> 3 states -> fullfilled, rejected, pending.
