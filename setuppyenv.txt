@@ -4,20 +4,20 @@ https://mungingdata.com/python/how-pyenv-works-shims/#:~:text=pyenv%20is%20a%20f
 
 you cant activate using pyenv activate command:
 
-(base) kksingha-mac:djangoproject.com kksingha$ pyenv activate 3.6.8
+(base) kk-mac:djangoproject.com kk$ pyenv activate 3.6.8
 pyenv-virtualenv: version `3.6.8' is not a virtualenv
 below is the right way:-
-(base) kksingha-mac:djangoproject.com kksingha$ pyenv local 3.6.8
-(base) kksingha-mac:djangoproject.com kksingha$ pyenv versions
+(base) kk-mac:djangoproject.com kk$ pyenv local 3.6.8
+(base) kk-mac:djangoproject.com kk$ pyenv versions
   system
-* 3.6.8 (set by /Users/kksingha/Documents/PythonScripts/codess/djangoproject.com/.python-version)
+* 3.6.8 (set by /Users/kk/Documents/PythonScripts/codess/djangoproject.com/.python-version)
   3.7.2
 pyenv added a .python-version file to the project1 directory.
-(base) kksingha-mac:djangoproject.com kksingha$ cat /Users/kksingha/Documents/PythonScripts/codess/djangoproject.com/.python-version
+(base) kk-mac:djangoproject.com kk$ cat /Users/kk/Documents/PythonScripts/codess/djangoproject.com/.python-version
 3.6.8
 
 check installed versions:-
-(base) kk-mac:djangoproject.com kksingha$ pyenv versions
+(base) kk-mac:djangoproject.com kk$ pyenv versions
 * system (set by /Users/kk/.pyenv/version)
   3.6.8
   3.7.2
@@ -38,9 +38,9 @@ $ brew install zlib
 Updating Homebrew...
 Warning: zlib 1.2.11 is already installed and up-to-date
 To reinstall 1.2.11, run `brew reinstall zlib`
-(base) kk-mac:djangoproject.com kksingha$ export LDFLAGS="-L/usr/local/opt/zlib/lib"
-(base) kk-mac:djangoproject.com kksingha$ export CPPFLAGS="-I/usr/local/opt/zlib/include"
-(base) kk-mac:djangoproject.com kksingha$ pyenv install 3.7.2
+(base) kk-mac:djangoproject.com kk$ export LDFLAGS="-L/usr/local/opt/zlib/lib"
+(base) kk-mac:djangoproject.com kk$ export CPPFLAGS="-I/usr/local/opt/zlib/include"
+(base) kk-mac:djangoproject.com kk$ pyenv install 3.7.2
 python-build: use openssl@1.1 from homebrew
 python-build: use readline from homebrew
 Downloading Python-3.7.2.tar.xz...
@@ -48,15 +48,15 @@ Downloading Python-3.7.2.tar.xz...
 Installing Python-3.7.2...
 python-build: use readline from homebrew
 python-build: use zlib from xcode sdk
-Installed Python-3.7.2 to /Users/kksingha/.pyenv/versions/3.7.2
+Installed Python-3.7.2 to /Users/kk/.pyenv/versions/3.7.2
 
-(base) kk-mac:djangoproject.com kksingha$ pyenv install 3.6.8
+(base) kk-mac:djangoproject.com kk$ pyenv install 3.6.8
 python-build: use openssl@1.1 from homebrew
 python-build: use readline from homebrew
 Installing Python-3.6.8...
 python-build: use readline from homebrew
 python-build: use zlib from xcode sdk
-Installed Python-3.6.8 to /Users/kksingha/.pyenv/versions/3.6.8
+Installed Python-3.6.8 to /Users/kk/.pyenv/versions/3.6.8
 
 PATH is an environment variable that specifies an ordered list of folders where executables are saved.
 
