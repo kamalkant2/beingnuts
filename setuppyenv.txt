@@ -81,3 +81,7 @@ finally /sbin.
 
 To uninstall
 pyenv uninstall miniconda-latest/envs/science-project
+
+cant delete like this:
+(base) kksingha-mac:djangoproject.com kksingha$ pyenv virtualenv-delete 3.6.8
+pyenv-virtualenv: `3.6.8' is not a virtualenv.
