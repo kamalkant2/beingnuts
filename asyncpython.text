@@ -1,0 +1,20 @@
+async eocsystem:
+
+Event Loop
+Using coroutines
+Coroutines under the hood
+Interaction with blocking world
+Error handling/ testing Debuging
+
+https://www.youtube.com/watch?v=Xbl7XjFYsN4
+how does blocking look like at 9th minute
+
+The Goal of asyncio
+- maximize the usage of single thread
+- by handling I/O synchronusly 
+- by enableing concurrent code using coroutines. 
+
+TTI : Time to Interact should be fast
+
+My kind of requirement : 28th minutes
+
