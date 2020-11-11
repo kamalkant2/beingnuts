@@ -1,0 +1,41 @@
+Show relationships between components:- 
+
+https://github.com/bricaud/graphexp
+https://tinkerpop.apache.org/
+
+Editable Fields:- 
+========================
+
+https://datatables.net/
+
+
+Component Relationship Diagram:-
+=================================
+
+https://github.com/Scalified/tree
+========================
+https://plotly.com/python/network-graphs/
+
+https://plotly.com/python/tree-plots/
+
+==================================
+
+
+Project from Inventory
+=============================
+FrontEnd landing Page: List of all project:- 
+
+Button In front of every Project:- View / Stop/ Start/ Patch/ Java Upgrade
+
+When we view:-
+
+We see all the target based of target type:-
+
+In front of all target , there are button : view/  launch console (to manage the target)
+Stop/Start/Patch
+
+Python Django
+===========================
+
+Code Inspirations:
+/Users/kksingha/Documents/PythonScripts/codess/Django-Dynamic-table
